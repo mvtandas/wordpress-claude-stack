@@ -41,8 +41,20 @@ Drop these files in your project. AI tools immediately write **secure, modern Wo
 | `skills/generate-block.md` | Claude Code | `/generate-block hero-banner` |
 | `skills/generate-rest-api.md` | Claude Code | `/generate-rest-api products` |
 | `skills/generate-woo-extension.md` | Claude Code | `/generate-woo-extension product-tab` |
+| `skills/security-check.md` | Claude Code | `/security-check` — audit code for vulnerabilities |
+| `SECURITY_CHECKLIST.md` | Reference | Escaping, sanitization, nonces, capabilities checklist |
+| `templates/` | Reference | Ready-to-use plugin header & block.json templates |
+| `scripts/setup.sh` | Shell | One-command installation |
 
 ## Quick Start
+
+### One-line install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/mvtandas/wordpress-claude-stack/main/scripts/setup.sh | bash
+```
+
+### Or manually
 
 ```bash
 # Everything
